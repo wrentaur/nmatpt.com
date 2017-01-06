@@ -10,6 +10,7 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 http://nmat.me
 baseurl:             ''
 paginate:            5
+permalink:           blog/:year/:month/:day/:title/
 
 # About/contact
 author:
