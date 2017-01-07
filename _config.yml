@@ -1,12 +1,8 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               Some title
+tagline:             'Some tagline'
+description:         'Some description'
 url:                 http://nmat.me
 baseurl:             ''
 paginate:            5
@@ -14,9 +10,9 @@ permalink:           blog/:year/:month/:day/:title/
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Nuno Teixeira
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             nuno.miguel.t@gmail.com
 
 # Custom vars
 version:             1.0.0
