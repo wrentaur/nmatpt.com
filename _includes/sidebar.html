@@ -5,9 +5,15 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+  <p>Welcome to my little slice of Internet.</p>
+   <p>I write about modern web development, mostly related to Scala.</p>
+    <div class="social-network">
+     <a href="{{ site.link-so }}" target="_blank"><i class="fa fa-stack-overflow fa-larger" aria-hidden="true"></i></a>
+     <a href="{{ site.link-gh }}" target="_blank"><i class="fa fa-github fa-larger" aria-hidden="true"></i></a>
+     <a href="{{ site.link-ln }}" target="_blank"><i class="fa fa-linkedin fa-larger" aria-hidden="true"></i></a>
+     <a href="mailto:{{ site.email-address }}"><i class="fa fa-envelope-o fa-larger" aria-hidden="true"></i></a>
+    </div>
   </div>
-
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 

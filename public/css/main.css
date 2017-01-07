@@ -1,0 +1,16 @@
+.fa.fa-larger {
+	font-size:130%;
+}
+
+.social-network {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social-network a {
+	margin-right: 10px;
+}
+
+.masthead-title a:hover {
+	text-decoration: none;
+}

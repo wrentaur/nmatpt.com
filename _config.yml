@@ -1,8 +1,7 @@
 # Permalinks
 # Setup
-title:               Some title
-tagline:             'Some tagline'
-description:         'Some description'
+title:               Casual Snippets
+tagline:             'insights on software development'
 url:                 http://nmat.me
 baseurl:             ''
 paginate:            5
@@ -15,7 +14,11 @@ author:
   email:             nuno.miguel.t@gmail.com
 
 # Custom vars
-version:             1.0.0
+link-so:             http://stackoverflow.com/u/848330
+link-ln:             https://linkedin.com/in/nmatpt
+link-gh:             http://github.com/nmatpt
+link-tw:             http://twitter.com/nmat
+email-address:       nuno.miguel.t@gmail.com
 
 # Gems
 gems: [jekyll-paginate]
