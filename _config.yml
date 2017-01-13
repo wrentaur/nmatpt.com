@@ -2,7 +2,7 @@
 # Setup
 title:               Casual Snippets
 tagline:             'insights on software development'
-url:                 http://nmat.me
+url:                 http://nmatpt.com
 baseurl:             ''
 paginate:            5
 permalink:           blog/:year/:month/:day/:title/
@@ -10,7 +10,7 @@ permalink:           blog/:year/:month/:day/:title/
 # About/contact
 author:
   name:              Nuno Teixeira
-  url:               https://twitter.com/mdo
+  url:               https://twitter.com/nmat
   email:             nuno.miguel.t@gmail.com
 
 # Custom vars

@@ -4,5 +4,5 @@ title: Do you read me, HAL?
 ---
 
 {% highlight scala %}
-    println("Hello, Dave.")
+println("Hello, Dave.")
 {% endhighlight %}
