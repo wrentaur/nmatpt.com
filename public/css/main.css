@@ -11,6 +11,20 @@
 	margin-right: 10px;
 }
 
+.social-network a:hover {
+	cursor: pointer;
+}
+
 .masthead-title a:hover {
 	text-decoration: none;
+}
+
+img.social-icon-img{
+	width:12%;
+	display:inline-block;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	vertical-align: bottom;
+	padding-bottom: 1px;
 }
