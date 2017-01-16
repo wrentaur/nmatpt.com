@@ -30,8 +30,15 @@
 	text-decoration: none;
 }
 
+.social-network-about .social-icon-img {
+		width: 31px;
+}
+
+.social-network .social-icon-img {
+		width: 28px;
+}
+
 img.social-icon-img{
-	width:28px;
 	display:inline-block;
 	margin: 0;
 	border: 0;
