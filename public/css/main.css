@@ -2,17 +2,28 @@
 	font-size:130%;
 }
 
-.social-network {
+.social-network, {
 	width: 100%;
 	margin: 0 auto;
 }
 
-.social-network a {
+.social-network a, .social-network-about a {
 	margin-right: 10px;
 }
 
-.social-network a:hover {
+.social-network a:hover, .social-network-about a {
 	cursor: pointer;
+}
+
+.social-network-about {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.social-network-about a {
+	color: rgb(81, 81, 81);
+	text-decoration: none;
 }
 
 .masthead-title a:hover {
@@ -20,11 +31,18 @@
 }
 
 img.social-icon-img{
-	width:12%;
+	width:28px;
 	display:inline-block;
 	margin: 0;
 	border: 0;
 	border-radius: 0;
 	vertical-align: bottom;
 	padding-bottom: 1px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	display:block;
+    margin:auto;
+    width: 200px;
 }
