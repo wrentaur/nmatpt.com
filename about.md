@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 <div style="width: 100%; margin: 0 auto;">
-	<img class="img-circle" src="{{ site.baseurl }}/public/user.png">
+	<img class="img-circle" src="{{ site.baseurl }}/public/nmat.png">
 </div>
 <div class="social-network-about">
  <a href="{{ site.link-so }}" title="StackOverflow" target="_blank"><i class="fa fa-stack-overflow fa-larger" aria-hidden="true"></i></a>
@@ -18,15 +18,13 @@ title: About me
 <p>
     I am specialized in backend development for web applications and my language of choice is Scala. Here are some of the areas I am more knowledgeable in:
     <ul>
-    <li>Scala, Java, Play Framework and Akka</li>
+    <li>Scala, Java, Play Framework, Akka</li>
     <li>PostgreSQL, MySQL, Redis</li>
     <li>AWS Services (EC2, RDS, S3, Lambda, etc.)</li>
     <li>Linux, Docker, Ansible, Git</li>
-    <li>Architecture design for large scale applications</li>
-    <li>Microservices</li>
+    <li>Microservices and large scale web applications</li>
     <li>Database optimization</li>
-    <li>Agile Methodologies, Functional Programming, TDD</li>
-    <li>...</li>
+    <li>Agile, Functional Programming, TDD</li>
    </ul>
 </p>
 
