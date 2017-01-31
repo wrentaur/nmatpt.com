@@ -22,7 +22,7 @@ link-uw:             http://www.upwork.com/o/profiles/users/_~01ddcce074b962b194
 email-address:       nuno.miguel.t@gmail.com
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 markdown: kramdown
 kramdown:
   input: GFM
