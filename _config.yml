@@ -23,3 +23,9 @@ email-address:       nuno.miguel.t@gmail.com
 
 # Gems
 gems: [jekyll-paginate]
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true

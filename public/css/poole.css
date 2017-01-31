@@ -170,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #fafafa;
 }
 pre code {
   padding: 0;
@@ -183,12 +183,12 @@ pre code {
   white-space: nowrap;    // this sets all children inside to nowrap
 }
 
-.highlight pre {
+pre {
   word-wrap: normal;
   overflow-x: auto;       // this sets the scrolling in x
 }
 
-.highlight pre code {
+pre code {
   white-space: pre;       // forces <code> to respect <pre> formatting
 }
 

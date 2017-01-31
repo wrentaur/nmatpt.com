@@ -5,7 +5,7 @@ title: Json4s custom serializers - the right way
 
 Most examples of Json4s custom serializers use the following approach:
 
-{% highlight scala %}
+```scala
 case class Animal(name: String, nrLegs: Int)
 
 class AnimalSerializer extends CustomSerializer[Animal](format => ( {
@@ -20,11 +20,11 @@ class AnimalSerializer extends CustomSerializer[Animal](format => ( {
       ("nrLegs" -> animal.nrLegs)
 }
 ))
-{% endhighlight %}
+```
 
 While this may sometimes work, **it is not the correct way to deserialize JSON**. The above code assumes the JSON is ordered, which is an incorrect assumption. A JSON object is, [per definition](http://json.org/), an unordered set of key/value pairs. Here is an example that breaks the deserializer:
 
-{% highlight scala %}
+``` diff
 
 scala> implicit val fmt = org.json4s.DefaultFormats + new AnimalSerializer()
 
@@ -51,11 +51,11 @@ org.json4s.package$MappingException: Can't convert JObject(List((nrLegs,JInt(42)
   at org.json4s.jackson.Serialization$.read(Serialization.scala:50)
   ... 43 elided
 
-{% endhighlight %}
+```
 
 If your application receives JSON from an external system, you can not predict the order of the received data and you should not rely on it. Here is an implementation that works regardless of the order. Note that the serializer code is the same as above, which is correct, I just changed the deserialization logic:
 
-{% highlight scala %}
+``` scala
 import org.json4s.CustomSerializer
 import org.json4s.JsonAST._
 import org.json4s.JsonDSL._
@@ -75,5 +75,5 @@ class AnimalSerializerUnordered extends CustomSerializer[Animal](format => ( {
 }
 ))
 
-{% endhighlight %}
+```
 Since each value is extracted independently, the order of the original object does not matter. You can see more details about Json4s value extraction [here](http://json4s.org/#extracting-values).
