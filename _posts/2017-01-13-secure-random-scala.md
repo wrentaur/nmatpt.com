@@ -12,7 +12,7 @@ import java.math.BigInteger
 import java.security.SecureRandom
 
 object RandomUtil {
-  private val random = SecureRandom.getInstanceStrong
+  private val random = new SecureRandom()
 
   def alphanumeric(nrChars: Int = 24): String = {
     new BigInteger(nrChars * 5, random).toString(32)
@@ -20,4 +20,4 @@ object RandomUtil {
 }
 ```
 
-Note that the `SecureRandom` initialization is [pretty expensive](https://tersesystems.com/2015/12/17/the-right-way-to-use-securerandom). Make sure that you only have one instance running in your application and that you reuse it to generate new values.
+Using `new SecureRandom()` is preferable over `SecureRandom.getInstanceStrong` because it uses `/dev/urandom`, which is [equally secure](https://tersesystems.com/2015/12/17/the-right-way-to-use-securerandom) and non blocking.
