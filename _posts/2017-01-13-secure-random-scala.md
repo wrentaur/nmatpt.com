@@ -20,4 +20,4 @@ object RandomUtil {
 }
 ```
 
-Using `new SecureRandom()` is preferable over `SecureRandom.getInstanceStrong` because it uses `/dev/urandom`, which is [equally secure](https://tersesystems.com/2015/12/17/the-right-way-to-use-securerandom) and non blocking.
+Note that `new SecureRandom()` is preferable over `SecureRandom.getInstanceStrong` because it uses `/dev/urandom` instead of `/dev/random`. The former is non-blocking and [equally secure](https://tersesystems.com/2015/12/17/the-right-way-to-use-securerandom).
