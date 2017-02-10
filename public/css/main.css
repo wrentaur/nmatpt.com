@@ -1,3 +1,10 @@
+.social-share-page{
+	margin-bottom: 15px;
+}
+.social-share-page a { 
+	text-decoration: none;
+}
+
 .fa.fa-larger {
 	font-size:130%;
 }

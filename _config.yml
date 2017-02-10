@@ -2,7 +2,7 @@
 # Setup
 title:               Casual Snippets
 tagline:             'insights on software development'
-url:                 http://nmatpt.com
+url:                 https://nmatpt.com
 baseurl:             ''
 paginate:            5
 permalink:           blog/:year/:month/:day/:title/
@@ -20,6 +20,7 @@ link-gh:             http://github.com/nmatpt
 link-tw:             http://twitter.com/nmat
 link-uw:             http://www.upwork.com/o/profiles/users/_~01ddcce074b962b194/
 email-address:       nuno.miguel.t@gmail.com
+twitter_username:    nmat
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap]
