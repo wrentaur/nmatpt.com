@@ -2,7 +2,7 @@
 # Setup
 title:               Casual Snippets
 tagline:             'insights on software development'
-url:                 https://nmatpt.com
+url:                 http://teller-tortoise-61568.netlify.com/
 baseurl:             ''
 paginate:            5
 permalink:           blog/:year/:month/:day/:title/
